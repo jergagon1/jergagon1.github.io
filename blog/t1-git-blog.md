@@ -1,4 +1,4 @@
-A Crash Course from a  Crash Course Newbie
+A Crash Course from a Crash Course Newbie
 
 Version Control, Git and GitHub
 
