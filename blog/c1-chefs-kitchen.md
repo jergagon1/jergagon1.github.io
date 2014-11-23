@@ -12,7 +12,7 @@ The central theme of the chat is that Devbootcamp is a "big experiment". Things 
 
 Students tend to arrive at Devbootcamp with one of two mindsets:
 
-The first is the "restaurant" mindset, where students feels that they can get their education by paying money, getting a download of the material, completing a set of tasks and then going off to get a job. They want their education served up like something ordered from a restaurant.
+The first is the "restaurant" mindset, where a student feels that they can get their education by paying money, getting a download of the material, completing a set of tasks and then going off to get a job. They want their education served up like something ordered from a restaurant.
 
 The second mindset is the "kitchen" mindset, where you show up and "put an apron on" to help make things happen.  You decide that you are going to make the experience your own. You engage, lead, show initiative, help, teach, learn, experiment, etc...
 
