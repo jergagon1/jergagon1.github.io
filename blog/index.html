@@ -3,9 +3,10 @@
 <html>
 
 <head>
-	<title>Jeremy Gagon::Home</title>
+	<title>Jeremy Gagon::Blog</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link type="text/css" rel="stylesheet" href="stylesheets/default.css">
+	<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+	<link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
 
 <!-- Image, name and title area -->
 <header>
-	<img src="imgs/jeremy_gagon.jpg" alt="Headshot Jeremy Gagon" />
+	<img src="../imgs/jeremy_gagon.jpg" alt="Headshot Jeremy Gagon" />
 	<section>
 		<h1>Jeremy Gagon</h1>
 		<h2>Web Developer</h2>
@@ -27,9 +28,9 @@
 	<!-- Primary Navigation Section -->
 	<nav>
 		<ul>
-  			<li><a href="#" id="current">Home</a></li>
+  			<li><a href="../index.html">Home</a></li>
 			<li class="line"><a href="#">Portfolio</a></li>
-			<li class="line"><a href="blog/index.html">Blog</a></li>
+			<li class="line"><a href="#" id="current">Blog</a></li>
 			<li class="line"><a href="#">About Me</a></li>
 			<li class="line"><a href="#">Contact</a></li>
 		</ul>
@@ -39,36 +40,19 @@
 
 <!-- Main content area -->
 <main>
-	<!-- Intro Message Area -->
-	<section id="welcome">
-		<h1>Welcome!</h1>
-		<p>Welcome to my site. It's in progress, so please bear with me. I am currently studying web development at <a href ="http://devbootcamp.com/">Dev Bootcamp</a>. I'm learning great skills like Ruby on Rails, Node JS and Javascript.</p>
-		<p> I have a diverse background in music and architectural IT, and I couldn't be more thrilled to be on my new exciting path in web development!</p>
-		<p>Mix one part computer fanatic, one part vegan, one part cat lover (sorry dogs - you're okay, too!) and one part drummer.</p>
-		<p class="more">more...</p>
-	</section>
-	<!-- excerpt from current blog -->
-	<section id="blogexcerpt">
-		<h2>Current Blog</h2>
-		<h3>Cultural Blog: Chefs in the Kitchen</h3>
+	<!-- Blog list -->
+	<section id="bloglist">
+		<!-- Developer note - provide mechanism for 2 column layout in future release as get more blog posts-->
+		<h1>Recent Blogs</h1>
+		<h2>November 2014</h2>
+		<ul>
+			<li><a href ="#">Latest Blog</a></li>
+			<li><a href ="c1-chefs-kitchen.html">Chefs in the Kitchen</a></li>
+			<li><a href ="t1-git-blog.html">Version Control, Git and GitHub</a></li>
+		</uL>
 
-		<h4>Reflections on the Culture of Devbootcamp</h4>
-
-		<h5>November 23, 2014</h5>
-
-		<p>As I set out on my journey with Devbootcamp, I am both extremely excited and extremely nervous. I believe these feelings stem from uncertainty about my skill level and the expectations of what I've signed up for.</p>
-		<p class="more"><a href="blog/c1-chefs-kitchen.html">more...</a></p>
 	</section>
-	<!-- code excerpt section -->
-	<section id="codesample">
-		<h2>Current Code</h2>
-		<pre><code>
-def my_method (sweet_argument)
-	puts "That's a #{sweet_argument}"
-end
-		</code></pre>
-		<p class="more">more...</p>
-	</section>
+
 </main>
 
 <!-- Sidebar content -->

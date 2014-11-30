@@ -1,76 +1,96 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-  <title>blog template</title>
+  <title>Version Control, Git and GitHub</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
   <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
 </head>
 
 <body>
 
+<!-- Image, name and title area -->
 <header>
-<img src="../imgs/jeremy_gagon.jpg" alt="Headshot Jeremy Gagon" />
-<div>
-<h1>Jeremy Gagon</h1>
-<h2>Web Developer</h2>
-</div>
+	<img src="../imgs/jeremy_gagon.jpg" alt="Headshot Jeremy Gagon" />
+	<section>
+		<h1>Jeremy Gagon</h1>
+		<h2>Web Developer</h2>
+	</section>
+	<!-- Quote section -->
+	<section id="quote">
+		<h3 class="invisible">Quote</h3>
+		<q>I want to put a ding in the universe.</q>
+		<p>Steve Jobs</p>
+	</section>
+	<!-- Primary Navigation Section -->
+	<nav>
+		<ul>
+  			<li><a href="../index.html">Home</a></li>
+			<li class="line"><a href="#">Portfolio</a></li>
+			<li class="line"><a href="index.html" id="current">Blog</a></li>
+			<li class="line"><a href="#">About Me</a></li>
+			<li class="line"><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
 </header>
 
-<nav>
-<ul>
-  <li><a href="#">Home</a></li>
-  <li class="line"><a href="#">Portfolio</a></li>
-  <li class="line"><a href="#">Blog</a></li>
-  <li class="line"><a href="#">About Me</a></li>
-  <li class="line"><a href="#">Contact</a></li>
-</ul>
-</nav>
+<main>
+	<section id="blog">
+		<h1>A Crash Course from a Crash Course Newbie</h1>
+		<h2>Version Control, Git and GitHub</h2>
+		<h3>November 22, 2014</h3>
 
-<div id="blog">
-<h1>11/22/14 A Crash Course from a Crash Course Newbie</h1>
-<h2>Version Control, Git and GitHub</h2>
+		<p>Welcome to my blog! I'm writing on the verge of completing my first week of Phase 0 at Devbootcamp. It's been awesome and I am excited to share some of the great things I've learned.</p>
 
-<p>Welcome to my blog! I'm writing on the verge of completing my first week of Phase 0 at Devbootcamp. It's been awesome and I am excited to share some of the great things I've learned.</p>
-
-<p>This week focused on version control, Git and Github. These sound great, right? Except...you might not know what any of these are! Don't worry, you will in a few paragraphs - that's where the crash course comes in.
-</p>
+		<p>This week focused on version control, Git and Github. These sound great, right? Except...you might not know what any of these are! Don't worry, you will in a few paragraphs - that's where the crash course comes in.</p>
 
 
-<p>Version control is simply a mechanism to track and record changes to files over time. As you work on code (or any other type of document), you have to make constant decisions about how to proceed: should I turn left or right? Should I use an array or a hash? Version control systems record the state of your files at key points so you can revert to those points if things go wrong.</p>
+		<p>Version control is simply a mechanism to track and record changes to files over time. As you work on code (or any other type of document), you have to make constant decisions about how to proceed: should I turn left or right? Should I use an array or a hash? Version control systems record the state of your files at key points so you can revert to those points if things go wrong.</p>
 
-<p>Using a version control system (VCS) also provides you with a level of backup for your project. Generally, you can recover lost or deleted files.</p>
+		<p>Using a version control system (VCS) also provides you with a level of backup for your project. Generally, you can recover lost or deleted files.</p>
 
-<p>The odds are pretty good that on a large development project, you won't be writing every line of code by yourself. Version control systems allow developers to collaborate on big projects by keeping track of who is working on what or if two people are working on different parts of the same thing.</p>
+		<p>The odds are pretty good that on a large development project, you won't be writing every line of code by yourself. Version control systems allow developers to collaborate on big projects by keeping track of who is working on what or if two people are working on different parts of the same thing.</p>
 
-<p>VCSs allow developers to experiment with ideas while not destroying the main repository of project code. The developer can save out a version (branch) of the source files (the tree) to try things out. If they work, the version control system can merge them back into the tree.  If not, no harm, no foul. You simply abandon the branch.</p>
+		<p>VCSs allow developers to experiment with ideas while not destroying the main repository of project code. The developer can save out a version (branch) of the source files (the tree) to try things out. If they work, the version control system can merge them back into the tree.  If not, no harm, no foul. You simply abandon the branch.</p>
 
-<h3>Okay, so what's Git?</h3>
+		<h3>Okay, so what's Git?</h3>
 
-<p>Git is a popular free version control system developed originally by Linus Torvalds of Linux fame.</p>
+		<p>Git is a popular free version control system developed originally by Linus Torvalds of Linux fame.</p>
 
-<p>Git is a distributed version control system which means that you download and run the software locally on your computer. Each collaborator has a full copy of all of the files and file history, so if one computer or server crashes, nothing is lost. Essentially, everyone has the master set of files. Awesome, right?</p>
+		<p>Git is a distributed version control system which means that you download and run the software locally on your computer. Each collaborator has a full copy of all of the files and file history, so if one computer or server crashes, nothing is lost. Essentially, everyone has the master set of files. Awesome, right?</p>
 
-<p>Git tracks folders and detects when you make changes in them. If you add a file or change a comma in a document, Git knows. It will tell you if you type "git status" in your command line.</p>
+		<p>Git tracks folders and detects when you make changes in them. If you add a file or change a comma in a document, Git knows. It will tell you if you type "git status" in your command line.</p>
 
-<p>There's a temporary staging area where you can hold files before you save them to Git. You can group a set of similar files together by adding them to the staging area with the command "git add my_awesome_file.rb" or better yet "git add ." to add all the files at once.</p>
+		<p>There's a temporary staging area where you can hold files before you save them to Git. You can group a set of similar files together by adding them to the staging area with the command "git add my_awesome_file.rb" or better yet "git add ." to add all the files at once.</p>
 
-<p>Now that you have all of your files in the staging area, it's time to save them out. You do this with a "commit". A commit does a couple of things: it saves out a snapshot of the current state of the files, it allows you to add a message to describe what changed and it lets your collaborators know that you've saved stuff out and that they should get the latest files.</p>
+		<p>Now that you have all of your files in the staging area, it's time to save them out. You do this with a "commit". A commit does a couple of things: it saves out a snapshot of the current state of the files, it allows you to add a message to describe what changed and it lets your collaborators know that you've saved stuff out and that they should get the latest files.</p>
 
-<h3>What's GitHub?</h3>
+		<h3>What's GitHub?</h3>
 
-<p>What if there was a place on the internet where you could put your awesome Git folder and all of your collaborators could upload and download changes whenever they were online? What if there was a place where you could post your code and brilliant people would help you fix bugs, suggest improvements and even write code for you? GitHub is that place.</p>
+		<p>What if there was a place on the internet where you could put your awesome Git folder and all of your collaborators could upload and download changes whenever they were online? What if there was a place where you could post your code and brilliant people would help you fix bugs, suggest improvements and even write code for you? GitHub is that place.</p>
 
-<p>GitHub allows developers to post code in open repositories that other developers can view, tweak and use in their own projects. It's a collaborative hub for developers to share their expertise.</p>
+		<p>GitHub allows developers to post code in open repositories that other developers can view, tweak and use in their own projects. It's a collaborative hub for developers to share their expertise.</p>
 
-<p>For a fee, individuals or organizations can have private repositories, but the free accounts are open to everyone.</p>
+		<p>For a fee, individuals or organizations can have private repositories, but the free accounts are open to everyone.</p>
 
-<p>Varying types of open source licenses can be included with your project repository on GitHub to offer some control over redistribution and use of your code, but generally open source licenses favor less restriction and encourage code reuse.</p>
+		<p>Varying types of open source licenses can be included with your project repository on GitHub to offer some control over redistribution and use of your code, but generally open source licenses favor less restriction and encourage code reuse.</p>
 
-<p>On to week 2!!!</p>
+		<p>On to week 2!!!</p>
 
-</div>
+	</section>
+</main>
 
+<!-- sidebar area -->
+<aside>
+	<!-- Twitter widget -->
+	<a class="twitter-timeline" href="https://twitter.com/jergagon1" data-widget-id="538848438926843904">Tweets by @jergagon1</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
 
-
+<!-- Secondary Navigation to external links -->
 <footer>
   <ul>
   <li><a href="mailto:jergagon1@gmail.com">Email</a></li>
