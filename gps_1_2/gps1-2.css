@@ -1,0 +1,52 @@
+* {
+	background-color: #add8e6;
+}
+
+header img {
+	width: 100px;
+	height: 100px;
+	border: 1px solid blue;
+	padding: 0px;
+	margin: 0px;
+}
+
+header #left {
+	float: left;
+}
+
+header #right {
+	float: right;
+}
+
+main {
+	clear: both;
+}
+
+header h1 {
+	display: inline-block;
+	text-align: center;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headerleft {
+	width: 30%;
+	float: left;
+}
+
+#headercenter {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+#headerright {
+	width: 30%;
+	float: right;
+}
+
+footer {
+	position: fixed;
+	bottom: 10px;
+}
