@@ -26,6 +26,8 @@
 }
 
 
+
+
 /* formatting for blog index page */
 #bloglist ul {
 	list-style: none;
@@ -35,4 +37,8 @@
 
 #bloglist li {
 	padding-top: 1.5em;
+}
+
+.bulleted {
+	list-style-type: circle;
 }
