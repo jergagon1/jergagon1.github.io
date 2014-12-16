@@ -221,3 +221,8 @@ footer li {
 	padding-right: 10px;
 	list-style: none;
 }
+
+code {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 0.8em;
+}
