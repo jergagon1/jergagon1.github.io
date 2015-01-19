@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>JavaScript</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+	<link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<body>
+
+<!-- Image, name and title area -->
+<header>
+	<img src="../imgs/jeremy_gagon.jpg" alt="Headshot Jeremy Gagon" />
+	<section>
+		<h1>Jeremy Gagon</h1>
+		<h2>Web Developer</h2>
+	</section>
+	<!-- Quote section -->
+	<section id="quote">
+		<h3 class="invisible">Quote</h3>
+		<q>The greatest mistake you can make in life is continually fearing that you'll make one.</q>
+		<p>Elbert Hubbard</p>
+	</section>
+	<!-- Primary Navigation Section -->
+	<nav>
+		<ul>
+  			<li><a href="../index.html">Home</a></li>
+			<li class="line"><a href="https://github.com/jergagon1">Portfolio</a></li>
+			<li class="line"><a href="index.html" id="current" >Blog</a></li>
+			<li class="line"><a href="#">About Me</a></li>
+			<li class="line"><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+</header>
+
+<!-- Main content area -->
+<main>
+	<section id="blog">
+		<h1>Ruby Hashes vs JavaScript Objects</h1>
+		<h2>Similar but Different</h2>
+		<h3>Jan. 18, 2015</h3>
+		<p>This week at DevBootcamp, we started working with JavaScript. It's an adjustment switching from Ruby to JavaScript and it brings up some interesting comparisons between the languages.
+		</p>One interesting comparison can be drawn between a Ruby hash and a JavaScript object. Let's take a look at the examples of each:
+<pre><code>
+# Ruby hash
+my_hash = {:name => "Jeremy Gagon", :occupation => "Web Developer in Training"}
+
+# Ruby hash Alternate Syntax
+my_hash = {name: "Jeremy Gagon", occupation: "Web Developer in Training"}
+
+// JavaScript object
+var myObject = {name: "Jeremy Gagon", occupation: "Web Developer in Training"};
+</code></pre>
+		<p>As you can see, using the alternate Ruby hash literal syntax is essentially the same as using the literal object constructor in JavaScript. They both commonly use symbols for the name or key and can contain any type of object as the value.
+		</p>
+		<p>Grammatically they look the same, so what's the difference in use or function?
+		</p>
+		<p>A Ruby hash is itself an object, in fact, it's an instance of the Hash class. It inherits attributes and methods from the Object parent class and has additional built-in functionality from the Enumerable module.
+		</p>
+		<p>A hash exists to deal with collections of data. It is an object that's a container for other objects. It allows you to assign a name to each separate value in your collection.
+		</p>
+		<p>In contrast, a JavaScript object is a complex data structure that allows you to store a collection of properties and methods. These properties and methods define the state and abilities of the object.
+		</p>
+		<p>Using the literal object constructor, you are creating a one-off object.
+		</p>
+<pre><code>
+var myNewObject = {property1: value1, property2: value2}
+</code></pre>
+		<p>Here I have created a new object myNewObject that has properties and values. If I wanted to create another similar object, I would need to repeat the code with a different variable name.
+		</p>
+		<p>In a way, this could be considered similarity between a JavaScript object created in this way and a Ruby hash literal instance. Neither the literal object constructor in JavaScript or an instance of the Hash class in Ruby is designed to  make multiple instances of itself. It is designed to be a unique object instance containing other objects.
+		</p>
+		<p>There is an alternate form of object construction in JavaScript where you can create multiple similar objects through a constructor function, but the syntax is different to Ruby hashes and not specifically related to the issue here.
+		</p>
+		<p>There are some similarities between a Ruby hash and a JavaScript literal object that extend beyond appearance alone. However, the use and implementation is different in the two languages.
+		</p>
+
+	</section>
+</main>
+<!-- sidebar area -->
+<aside>
+	<!-- Twitter widget -->
+	<a class="twitter-timeline" href="https://twitter.com/jergagon1" data-widget-id="538848438926843904">Tweets by @jergagon1</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<!-- Secondary Navigation to external links -->
+<footer>
+	<ul>
+		<li><a href="mailto:jergagon1@gmail.com">Email</a></li>
+		<li class="line"><a href="https://github.com/jergagon1">GitHub</a></li>
+		<li class="line"><a href="https://www.facebook.com/jeremygagon">Facebook</a></li>
+		<li class="line"><a href="https://twitter.com/jergagon1">Twitter</a></li>
+		<li class="line"><a href="http://www.quora.com/Jeremy-Gagon">Quora</a></li>
+		<li class="line"><a href="http://www.linkedin.com/pub/jeremy-gagon/30/750/285/">Linkedin</a></li>
+	</ul>
+</footer>
+
+</body>
+
+</html>

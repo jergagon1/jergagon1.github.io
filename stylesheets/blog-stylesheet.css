@@ -29,6 +29,16 @@
 
 
 /* formatting for blog index page */
+#bloglist {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
+}
+
+
 #bloglist ul {
 	list-style: none;
 	padding: 0em;
