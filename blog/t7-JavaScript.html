@@ -46,10 +46,10 @@
 		<p>This week at DevBootcamp, we started working with JavaScript. It's an adjustment switching from Ruby to JavaScript and it brings up some interesting comparisons between the languages.
 		</p>One interesting comparison can be drawn between a Ruby hash and a JavaScript object. Let's take a look at the examples of each:
 <pre><code>
-# Ruby hash
+# Ruby hash literal
 my_hash = {:name => "Jeremy Gagon", :occupation => "Web Developer in Training"}
 
-# Ruby hash Alternate Syntax
+# Ruby hash literal with alternate syntax
 my_hash = {name: "Jeremy Gagon", occupation: "Web Developer in Training"}
 
 // JavaScript object
@@ -57,7 +57,7 @@ var myObject = {name: "Jeremy Gagon", occupation: "Web Developer in Training"};
 </code></pre>
 		<p>As you can see, using the alternate Ruby hash literal syntax is essentially the same as using the literal object constructor in JavaScript. They both commonly use symbols for the name or key and can contain any type of object as the value.
 		</p>
-		<p>Grammatically they look the same, so what's the difference in use or function?
+		<p>They look the same syntactically, so what's the difference?
 		</p>
 		<p>A Ruby hash is itself an object, in fact, it's an instance of the Hash class. It inherits attributes and methods from the Object parent class and has additional built-in functionality from the Enumerable module.
 		</p>
