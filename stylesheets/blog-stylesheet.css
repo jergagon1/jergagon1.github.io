@@ -52,3 +52,14 @@
 .bulleted {
 	list-style-type: circle;
 }
+
+table {
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+.highlight {
+  color: #FF9203;
+}
