@@ -26,6 +26,9 @@ a:hover {
 /* Header Formatting*/
 header {
 	width: 100%;
+	background-image: url("../imgs/sky.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	background-color: black;
 	color: white;
 }
@@ -63,7 +66,7 @@ header h2 {
 	margin: 0em;
 	padding: 0em;
 	float: right;
-	width: 9em;
+	width: 10em;
 	text-align: right;
 	color: white;
 	padding-right: 2em;
@@ -222,9 +225,25 @@ footer li {
 	list-style: none;
 }
 
+pre {
+	background-color: #cacaca;
+	padding: 1em;
+	white-space: pre-wrap;
+}
+
 code {
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 0.8em;
+	color: #A93BB2;
 
+}
+
+#contactInfo {
+	padding: 1em 0;
+}
+
+#contactInfo td {
+	padding-top: 1em;
+	width: 5em;
 
 }
