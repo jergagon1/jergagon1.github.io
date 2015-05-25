@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+I am a full stack web developer with a passion for developing apps in Rails and JavaScript. I'm grounded, creative, highly adaptable and effective in working on complex projects with tight deadlines. I pay attention to detail and have an eye for troubleshooting and breaking problems down.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I have strong leadership, writing and communication skills and excel at leading teams and training employees.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+My background is diverse and includes experience in music, architecture, CAD, and A/V production. I bring a wide array of skills and knowledge to any project.
