@@ -10,3 +10,4 @@ Todo:
 * Add image
 * Additional Styling
 * Implement tags
+* Implement favicon
