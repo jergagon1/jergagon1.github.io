@@ -1,4 +1,12 @@
 jergagon1.github.io
 ===================
 
-My DBC Phase 0 github pages site!
+Blog for full stack web developer Jeremy Gagon.
+
+2015-05-24 Update:
+Implemented Jeckyll.
+
+Todo:
+* Add image
+* Additional Styling
+* Implement tags
