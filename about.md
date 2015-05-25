@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-![Hanging with Lovella](/assets/images/jeremy.jpg){: .about-image }
+![Hanging with Lovella](/assets/images/jeremy.jpg)
 <br>
 I am a full stack web developer with a passion for developing apps in Rails and JavaScript. I'm grounded, creative, highly adaptable and effective in working on complex projects with tight deadlines. I pay attention to detail and have an eye for troubleshooting and breaking problems down.
 
