@@ -10,7 +10,6 @@ tags:
 - mvc
 - model
 ---
-It's always fun to try to explain something to another person when you have only an introductory-level understanding of the concept. In this blog, I will try to explain the concept of Active Record and my explanation will be that of a beginner. In other words: <q>Disclaimer!</q>.
 
 To get an understanding of Active Record, there are a few concepts that must be touched on.
 
@@ -22,10 +21,8 @@ Web application frameworks are systems that allow servers to be programmed using
 
 In the model-view-controller (MVC) web application framework Ruby on Rails, the "model" is responsible for rules, logic and data management. Active Record is the "model" in that relationship.
 
-More specifically, Active Record is the mechanism of linking an object-oriented class to a relationsional database table. The class wraps the database table so that when a class instance is created, a linked row is created in the database table. Due to this relationship, it is known as a framework for Object Relational Mapping (ORM).
+More specifically, Active Record is the mechanism of linking an object-oriented class to a relational database table. The class wraps the database table so that when a class instance is created, a linked row is created in the database table. Due to this relationship, it is known as a framework for Object Relational Mapping (ORM).
 
 Active record allows you to use the features of class-based object-oriented programming to streamline database information management. You can use OOP features like inheritance to create logical hierarchies in your database.
 
 Also, you can use the object-oriented language to create and update data to minimize SQL programming.
-
-I look forward to learning more about these interrelated systems as my bootcamp education continues.

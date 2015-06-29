@@ -5,7 +5,7 @@ date:   2015-01-02 17:00:00
 categories: technical
 tags: ruby class object
 ---
-When you start learning an object-oriented programming language like Ruby, you work with objects. These objects can be representations of things in the real world, for example you could have a person object or a car object. However, a programming object does not have to represent a material physical thing. A programming object can also represent an abstract concept like an idea, a number, a conversation or a piece of data.
+When you develop with an object-oriented programming language like Ruby, you work with objects. These objects can be representations of things in the real world, for example you could have a person object or a car object. However, a programming object does not have to represent a material physical thing. A programming object can also represent an abstract concept like an idea, a number, a conversation or a piece of data.
 
 Objects have attributes that describe their state. A car object might have a color attribute that would describe its color or a number_of_doors attribute to describe if it's a 2 door or 4 door.
 

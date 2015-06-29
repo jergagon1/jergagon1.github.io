@@ -5,7 +5,7 @@ date:   2015-01-18 17:00:00
 categories: technical
 tags: ruby hash javascript object
 ---
-This week at DevBootcamp, we started working with JavaScript. It's an adjustment switching from Ruby to JavaScript and it brings up some interesting comparisons between the languages.
+When you frequently work several different coding languages, you begin to notice interesting comparisons between the languages.
 
 One interesting comparison can be drawn between a Ruby hash and a JavaScript object. Let's take a look at the examples of each:
 
@@ -13,13 +13,13 @@ One interesting comparison can be drawn between a Ruby hash and a JavaScript obj
 # Ruby hash literal
 my_hash = {
   :name => "Jeremy Gagon",
-  :occupation => "Web Developer in Training"
+  :occupation => "Web Developer"
 }
 
 # Ruby hash literal with alternate syntax
 my_hash = {
   name: "Jeremy Gagon",
-  occupation: "Web Developer in Training"
+  occupation: "Web Developer"
 }
 {% endhighlight %}
 
@@ -27,7 +27,7 @@ my_hash = {
 // JavaScript object
 var myObject = {
   name: "Jeremy Gagon",
-  occupation: "Web Developer in Training"
+  occupation: "Web Developer"
 };
 {% endhighlight %}
 
