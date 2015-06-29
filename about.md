@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![Hanging with Lovella](/assets/images/jeremy.jpg)
 <br>
-I am a full stack web developer with a passion for developing apps in Rails and JavaScript. I'm grounded, creative, highly adaptable and effective in working on complex projects with tight deadlines. I pay attention to detail and have an eye for troubleshooting and breaking problems down.
+I am a full stack web developer with a passion for developing apps. I'm grounded, creative, highly adaptable and effective in working on complex projects with tight deadlines. I pay attention to detail and have an eye for troubleshooting and breaking problems down.
 
 I have strong leadership, writing and communication skills and excel at leading teams and training employees.
 
